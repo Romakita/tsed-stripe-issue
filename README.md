@@ -33,6 +33,7 @@ STRIPE_WEBHOOK_SECRET=sk_test_5***
 ```
 yarn start
 yarn stripe:forward:tsed
+yarn stripe:trigger
 ```
 
 ### Express
@@ -40,6 +41,7 @@ yarn stripe:forward:tsed
 ```
 yarn start:express
 yarn stripe:forward:express
+yarn stripe:trigger
 ```
 
 ### Koa
@@ -47,6 +49,7 @@ yarn stripe:forward:express
 ```
 yarn start:koa
 yarn stripe:forward:koa
+yarn stripe:trigger
 ```
 
 ### Issue
